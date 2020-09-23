@@ -23,6 +23,7 @@ public class Patient {
 
     public String takeMedication(String){
         this.medicine = medicine;
+        return medicine;
     }
 
     public boolean isSick() {
