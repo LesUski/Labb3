@@ -1,11 +1,11 @@
 package kyh.labs.lab3;
 
 class Doctor {
-    private String name;
+    private String name;        //field
 
     Doctor(String name) {
         this.name = name;
-    }
+    }   //constructor
 
     public String testPatient(Patient patient) {
         if(patient.isSick()) {
